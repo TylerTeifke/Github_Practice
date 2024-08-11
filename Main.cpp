@@ -6,4 +6,5 @@ int main(){
 
     John.print();
     Luke.print();
+    cout << "Hello World" << endl;
 }
