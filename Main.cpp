@@ -12,4 +12,6 @@ int main(){
     John.changeFirstName(name);
     name = "Jake";
     John.print();
+
+    //TODO: Make a linked list of students
 }
