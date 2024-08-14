@@ -21,4 +21,8 @@ class Student {
             cout << "Last Name: " << lastName << endl;
             cout << "Number: " << number << endl;
         }
+
+        void changeFirstName(string newName){
+            this->firstName = newName;
+        }
 };

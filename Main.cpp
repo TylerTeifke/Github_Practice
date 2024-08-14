@@ -7,4 +7,9 @@ int main(){
     John.print();
     Luke.print();
     cout << "Hello World" << endl;
+
+    string name = "Chris";
+    John.changeFirstName(name);
+    name = "Jake";
+    John.print();
 }
