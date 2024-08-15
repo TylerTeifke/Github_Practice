@@ -5,15 +5,18 @@ using namespace std;
 class Student {
 
     private:
+        //Data for individual students
         string firstName = "";
         string lastName = "";
         int number = 0;
+        //Student* next;
 
     public:
         Student(string newFirst, string newSecond, int newNumber){
             this->firstName = newFirst;
             this->lastName = newSecond;
             this->number = newNumber;
+            //this->next = NULL;
         }
 
         void print(){

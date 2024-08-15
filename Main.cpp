@@ -1,17 +1,15 @@
 #include "Student.cpp"
+#include "Node.cpp"
 
 int main(){
-    Student John("John", "Smith", 1234);
-    Student Luke("Luke", "King", 5678);
+    Node list("John", "Smith", 1234);
+    cout << "Testing addNode" << endl;
+    list.addNode("Jane", "Doe", 5678);
+    list.printData();
 
-    John.print();
-    Luke.print();
-    cout << "Hello World" << endl;
-
-    string name = "Chris";
-    John.changeFirstName(name);
-    name = "Jake";
-    John.print();
+    cout << "Testing deleteNode" << endl;
+    list.deleteNode();
+    list.printData();
 
     //TODO: Make a linked list of students
 }
